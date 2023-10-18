@@ -58,8 +58,11 @@
     font-size: 15px;
 }
 
-.container > .corpele > .imagem{
-    
+#imagem{
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    margin: 5;
 }
 
 
@@ -67,7 +70,7 @@
 .branco{
     width: 50%;
     height: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.432);
     
 }
 
@@ -81,18 +84,28 @@
 .branco > p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 23px;
+    padding: 7%;
 }
 
 .branco >.botao{
     text-align: center;
    
-    
-   
 }
 
-.container >.branco > .imagemdois{
+#imagemdois{
+    width: 190px;
+    
+    
     
 }
+
+#botao{
+    
+    height: 20px;
+    
+}
+    
+
     
 
 
@@ -101,7 +114,7 @@
     background: url('imagens/fundo-de-folhas-verdes-tropicais_53876-88891\ \(1\).avif');
     text-align: center;
     padding: 50px;
-    color: white;
+    color: rgb(206, 206, 206);
 }
 
 .titulo{
@@ -123,4 +136,5 @@
     text-align: center;
     justify-content: center;
 }
+
 
